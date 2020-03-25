@@ -122,10 +122,11 @@ $ mkdir -p src/main/resources
 $ cd src/main/java
 $ curl https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.osgi.web.servlet.jsp.compiler/4.0.14/com.liferay.portal.osgi.web.servlet.jsp.compiler-4.0.14-sources.jar | jar xv
 $ rm -rf META-INF/
+$ rm -rf org/
 $ mv javax ../resources
 $ cd ../../../
 $ curl -L -O https://github.com/liferay/liferay-portal/raw/7.2.1-ga2/modules/apps/static/portal-osgi-web/portal-osgi-web-servlet-jsp-compiler/bnd.bnd
-$ curl -L -O build.gradle https://github.com/liferay/liferay-portal/raw/7.2.1-ga2/modules/apps/static/portal-osgi-web/portal-osgi-web-servlet-jsp-compiler/build.gradle
+$ curl -L -O https://github.com/liferay/liferay-portal/raw/7.2.1-ga2/modules/apps/static/portal-osgi-web/portal-osgi-web-servlet-jsp-compiler/build.gradle
 ```
 
 
