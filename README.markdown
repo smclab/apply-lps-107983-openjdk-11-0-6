@@ -116,6 +116,7 @@ $ mkdir ~/apply-lps-107983-openjdk-11-0-6
 $ cd ~/apply-lps-107983-openjdk-11-0-6
 $ blade init -v 7.2
 $ mkdir modules/apps/static/portal-osgi-web/portal-osgi-web-servlet-jsp-compiler
+$ cd modules/apps/static/portal-osgi-web/portal-osgi-web-servlet-jsp-compiler
 $ mkdir -p src/main/java
 $ mkdir -p src/main/resources
 $ cd src/main/java
