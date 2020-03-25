@@ -154,7 +154,7 @@ mostrato a seguire.
 
 
 
-```groovy
+```
 buildscript {
    dependencies {
       classpath group: "com.liferay", name: "com.liferay.gradle.util", version:
@@ -189,7 +189,7 @@ figura seguente.
 
 
 
-![ApplyPatch](docs/images/ApplyPatch.png)
+![ApplyPatch](docs/images/ApplyPatch.jpg)
 
 
 
