@@ -154,7 +154,7 @@ mostrato a seguire.
 
 
 
-```groovy
+```
 buildscript {
    dependencies {
       classpath group: "com.liferay", name: "com.liferay.gradle.util", version:
@@ -189,7 +189,7 @@ figura seguente.
 
 
 
-![ApplyPatch](docs/images/ApplyPatch.png)
+![ApplyPatch](docs/images/ApplyPatch.jpg)
 
 
 
@@ -277,5 +277,5 @@ g!
 
 
 
-Benissimo abbiamo finito e abbiamo il Portale Liferay 7.2 GA2 che funziona con
+Benissimo abbiamo finito e il Portale Liferay 7.2 GA2 funziona con
 OpenJDK 11.0.6 :-)
